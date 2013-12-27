@@ -40,7 +40,7 @@ func NewChsFullTextMatch(wdict *dict.WordDictionary) (m *ChsFullTextMatch) {
 
 func (m *ChsFullTextMatch) SetOptionParams(options *MatchOptions, params *MatchParameter) {
 	m.options = options
-	m.params = params 
+	m.params = params
 }
 
 func (m *ChsFullTextMatch) Match(posLenArr []dict.PositionLength, originalText string) *list.List {
@@ -241,17 +241,17 @@ func (m *ChsFullTextMatch) getLeafNodeArrayCore(posLenArr []dict.PositionLength,
 	m.leafNodeList = [](*Node){}
 	m.posLenArr = posLenArr
 	m.inputStringLen = orginalTextLength
-	m.buildTree(m.root, 0)	
+	m.buildTree(m.root, 0)
 	return m.leafNodeList
 }
 
 func (m *ChsFullTextMatch) combineNodeAttr(result []*Node, arr []*Node) {
-    c := len(result) - len(arr)
-    if c > 0 {
-       for i := 0; i < c; i++ {
-          arr = append(arr, nil)
-       }
-    }
+	c := len(result) - len(arr)
+	if c > 0 {
+		for i := 0; i < c; i++ {
+			arr = append(arr, nil)
+		}
+	}
 
 	// 复制 arr 链表
 	for i := 0; i < len(arr); i++ {
@@ -600,7 +600,7 @@ func (m *ChsFullTextMatch) buildTree(parent *Node, curIndex int) {
 	if len(m.leafNodeList) > 8192 {
 		return
 	}
- 
+
 	if curIndex < len(m.posLenArr)-1 {
 		if m.posLenArr[curIndex+1].Position == m.posLenArr[curIndex].Position {
 			m.buildTree(parent, curIndex+1)

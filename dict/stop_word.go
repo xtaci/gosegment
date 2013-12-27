@@ -1,7 +1,7 @@
 /**
  * func:  stop word match
  * status: ok
- * 
+ *
  */
 
 package dict

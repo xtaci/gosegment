@@ -189,6 +189,6 @@ func (d *WordDictionary) GetAllMatchs(text string, chineseNameIdentify bool) (re
 			}
 		}
 	}
-	
+
 	return
 }
