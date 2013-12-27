@@ -8,12 +8,10 @@ import (
 
 func TestSegment(t *testing.T) {
 	seg := NewSegment()
-	/*
 	err := seg.Init("./dictionary")
 	if err != nil {
 		fmt.Println("%v", err)
 	}
-	*/
 	ret := seg.DoSegment(`盘古分词 简介: 盘古分词 是由eaglet 开发的一款基于字典的中英文分词组件
 主要功能: 中英文分词，未登录词识别,多元歧义自动识别,全角字符识别能力
 主要性能指标:
