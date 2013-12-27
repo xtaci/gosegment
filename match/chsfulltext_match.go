@@ -2,8 +2,8 @@ package match
 
 import (
 	"container/list"
-	"segment/dict"
-	"segment/utils"
+	"github.com/xtaci/gosegment/dict"
+	"github.com/xtaci/gosegment/utils"
 	"sort"
 )
 

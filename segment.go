@@ -2,10 +2,10 @@ package segment
 
 import (
 	"container/list"
-	"segment/dict"
-	"segment/framework"
-	"segment/match"
-	"segment/utils"
+	"github.com/xtaci/gosegment/dict"
+	"github.com/xtaci/gosegment/framework"
+	"github.com/xtaci/gosegment/match"
+	"github.com/xtaci/gosegment/utils"
 	"strings"
 	"regexp"
 	"unicode"

@@ -1,7 +1,7 @@
 package dict
 
 import (
-	"segment/utils"
+	"github.com/xtaci/gosegment/utils"
 )
 
 const (

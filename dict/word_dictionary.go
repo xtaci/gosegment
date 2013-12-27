@@ -2,7 +2,7 @@ package dict
 
 import (
 	"container/list"
-	"segment/utils"
+	"github.com/xtaci/gosegment/utils"
 	"strconv"
 	"strings"
 )

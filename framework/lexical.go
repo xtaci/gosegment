@@ -1,7 +1,7 @@
 package framework
 
 import (
-	"segment/dict"
+	"github.com/xtaci/gosegment/dict"
 	"sort"
 )
 

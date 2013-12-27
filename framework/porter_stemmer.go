@@ -1,7 +1,7 @@
 package framework
 
 import (
-	"segment/utils"
+	"github.com/xtaci/gosegment/utils"
 )
 
 const INC = 50

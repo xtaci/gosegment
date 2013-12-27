@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"segment"
-	"segment/dict"
+	"../"
+	"../dict"
 )
 
 func main() {
